@@ -13,13 +13,16 @@
     "sources": "https://github.com/ZoonyS/RocketsPlus"
   },
 
-  "license": "CC0-1.0",
+  "license": "GNU GPLv3",
   "icon": "assets/rocketsplus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "zoony.rocketsplus.rocket.RocketsPlus"
+    ],
+    "client": [
+      "zoony.rocketsplus.rocket.RocketsPlusClient"
     ]
   },
   "mixins": [
@@ -31,8 +34,5 @@
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
