@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "rocketsplus",
+  "version": "${version}",
+
+  "name": "Rockets+",
+  "description": "A mod that adds weapons of mass destruction!",
+  "authors": [
+    "Zoony"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/Zoonyism",
+    "sources": "https://github.com/ZoonyS/RocketsPlus"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rocketsplus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zoony.rocketsplus.rocket.RocketsPlus"
+    ]
+  },
+  "mixins": [
+    "rocketsplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
