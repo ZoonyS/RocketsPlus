@@ -5,7 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ExampleMod implements ModInitializer {
-	public static final Logger LOGGER = LoggerFactory.getLogger("rocketsplus");
+	public static final String MODID = "rocketsplus";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
 	@Override
 	public void onInitialize() {

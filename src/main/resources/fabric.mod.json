@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "zoony.rocketsplus.rocket.RocketsPlus"
+      "zoony.rocketsplus.rocket.common.RocketsPlus"
     ],
     "client": [
-      "zoony.rocketsplus.rocket.RocketsPlusClient"
+      "zoony.rocketsplus.rocket.client.RocketsPlusClient"
     ]
   },
   "mixins": [
