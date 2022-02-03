@@ -1,0 +1,17 @@
+{
+    "multipart": [
+      {
+        "apply": { "model": "minecraft:block/stone", "uvlock": true}
+      },
+      {
+        "apply": [
+          { "model": "rocketsplus:block/lgm30" },
+          { "model": "rocketsplus:block/lgm30", "y": 90 },
+          { "model": "rocketsplus:block/lgm30", "y": 180 },
+          { "model": "rocketsplus:block/lgm30.obj", "y": 270 },
+          { "model": "rocketsplus:block/lgm30.obj", "x": 90 },
+          { "model": "rocketsplus:block/lgm30.obj", "x": 270 }
+        ]
+      }
+    ]
+  }
