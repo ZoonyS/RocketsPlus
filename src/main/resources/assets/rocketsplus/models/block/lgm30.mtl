@@ -1,2 +1,5 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
 newmtl lgm30
-map_Kd minecraft:block/stone
+map_Kd minecraft:block/white_concrete
